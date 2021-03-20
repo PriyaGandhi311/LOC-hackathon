@@ -7,6 +7,7 @@
     var y=document.getElementById("usnm2").value;
     if(x==y)
     {
+      alert("Sign Up Successful.")
         window.open("newIndex.html");
     }
     else{
