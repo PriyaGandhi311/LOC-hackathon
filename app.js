@@ -8,7 +8,7 @@
     if(x==y)
     {
       alert("Sign Up Successful.")
-        window.open("newIndex.html");
+      window.open("C:/Users/Karan%20Gada/Desktop/Ascent/newIndex.html");
     }
     else{
         alert("Please Enter Same Password.");

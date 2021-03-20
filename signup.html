@@ -11,20 +11,22 @@
  		<h1>Sign Up</h1>
  	</div>
  	<div class="main">
- 		<form>
+ 		<form action="newIndex.html">
  			<span>
  				<i class="fa fa-user"></i>
- 				<input type="email" placeholder="Username"  required>
- 			</span><br>
+ 				<input type="email" placeholder="Email"  required>
+ 			</span>
+			  <span><input name="tel1" type="tel" pattern="[1-9]{1}[0-9]{9}" placeholder="Phone Number" aria-label="3-digit area code" size="10" required></span>
  			<span>
  				<i class="fa fa-lock"></i>
- 				<input id="usnm" type="password" placeholder="password"  required>
- 			</span><br>
+ 				<input id="usnm" type="password" placeholder="password" minlength="8" required>
+ 			</span>
              <span>
  				<i class="fa fa-lock"></i>
- 				<input id="usnm2" type="password" placeholder="Re-enter password"  required>
- 			</span><br>
- 				<button onclick="openWin1()">Sign Up</button>
+ 				<input id="usnm2" type="password" placeholder="Re-enter password" minlength="8" required>
+ 			</span>
+			
+ 				<button type="submit">Sign Up</button>
  		</form>
  	</div>
  </div>
