@@ -1,9 +1,45 @@
-.navbar{
-  padding:1rem 0;
-  background-color: skyblue;
+
+body {
+  background: #d8e2dc;
+  font-family: "Nunito", sans-serif;
 }
-.paras{
-  text-align: center;
-  height: 500px;
-  background-color: skyblue;
+
+#mainNavbar {
+  font-size: 1.7rem;
+  font-weight: 100;    
 }
+
+#mainNavbar .nav-link {
+  color: black;
+}
+
+#mainNavbar .nav-link:hover {
+  color: #023e8a;
+}
+
+#mainNavbar .navbar-brand {
+  color: black;
+  font-size: 1.5rem;
+}
+#mainNavbar .navbar-brand:hover {
+  color: #023e8a;
+}
+
+.navbar.scrolled {
+  background: white;
+  transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+  #headingGroup h1 {
+      font-weight: 100;
+      font-size: 3rem;
+  }
+  .blurb h2 {
+      font-size: 2rem;
+  }
+}
+
+
+
+
