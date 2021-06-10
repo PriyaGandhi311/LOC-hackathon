@@ -1,7 +1,7 @@
 # LOC-hackathon
 Team name- Ascent, Project name- Travel Buddy ... 
 Squad :
-Paras Gadium,
-Priya kaddu,
-Rushabh god,
-Vedanti padhaku.
+Paras Gada,
+Priya Gandhi,
+Rushabh godo,
+Vedanti Dantwala.
